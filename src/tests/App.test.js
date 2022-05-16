@@ -20,12 +20,3 @@ describe('Teste se o topo da aplicação contém links de navegação', () => {
     expect(linkAbout).toBeInTheDocument();
   });
 });
-
-// describe('Teste se a aplicação é redirecionada', () => {
-//   test('Ao clicar no link Home da barra de navegação.', () => {
-//     <MemoryRouter>
-//       <App />
-//     </MemoryRouter>,
-//   });
-// });
-
